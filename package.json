@@ -1,0 +1,14 @@
+{
+  "name": "diagram2java-backend",
+  "version": "1.0.0",
+  "description": "Backend for Diagram2Java AI VS Code extension",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.29.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
